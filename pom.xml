@@ -5,17 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kingyal</groupId>
-    <artifactId>ky_rpc</artifactId>
+    <artifactId>rpc_test</artifactId>
     <packaging>pom</packaging>
     <version>${project.version}</version>
     <modules>
-        <module>ky_rpc_proto</module>
-        <module>ky_rpc_codec</module>
-        <module>ky_rpc_transport</module>
-        <module>ky_rpc_server</module>
-        <module>ky_rpc_client</module>
-        <module>ky_rpc_common</module>
-        <module>kingyal-rpc-example</module>
+        <module>kingyal_rpc_proto</module>
+        <module>kingyal_rpc_codec</module>
+        <module>kingyal_rpc_transport</module>
+        <module>kingyal_rpc_server</module>
+        <module>kingyal_rpc_client</module>
+        <module>kingyal_rpc_common</module>
+        <module>kingyal_rpc_example</module>
     </modules>
     <properties>
         <project.version>1.0-SNAPSHOT</project.version>
@@ -60,7 +60,6 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

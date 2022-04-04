@@ -1,6 +1,5 @@
-package com.kingyal.rpc.client.common.utils;
+package com.kingyal.rpc.common.utils;
 
-import com.kingyal.rpc.common.utils.ReflectionUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -31,15 +31,14 @@ public class ReflectionUtils {
      * @return 当前类声明的共有方法
      */
     public static Method[] getPublicMethods(Class clazz) {
-//        Method[] methods = clazz.getDeclaredMethods();
-//        List<Method> pmethods = new ArrayList<>();
-//        for (Method m : methods) {
-//            if (Modifier.isPublic(m.getModifiers())) {
-//                pmethods.add(m);
-//            }
-//        }
-//        return pmethods.toArray(new Method[0]);
-        return clazz.getMethods();
+        Method[] methods = clazz.getDeclaredMethods();
+        List<Method> pmethods = new ArrayList<>();
+        for (Method m : methods) {
+            if (Modifier.isPublic(m.getModifiers())) {
+                pmethods.add(m);
+            }
+        }
+        return pmethods.toArray(new Method[0]);
     }
 
     /**

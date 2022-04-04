@@ -1,4 +1,4 @@
-package com.kingyal.rpc.client.common.utils;
+package com.kingyal.rpc.common.utils;
 
 public class TestClass {
     private String a() {
